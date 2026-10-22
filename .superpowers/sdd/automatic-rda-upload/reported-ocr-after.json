@@ -1,0 +1,4096 @@
+{
+  "document": {
+    "text": "LOB CO} Trans) Ship Dt lendered RevenueDt Customs Origin Dest Payor Invoice Invoice Bill To Acct Bill To Rev item Id CDU Device ORS Stage\nType Dt Entry Dt Station Station a Dt a Cust Req Flag\nName Dt\nPNG AIR\nE\n00002 002 S 08/27/2026 08/27/2026 08/27/2026 HHRKN POMA 2 204819935 FREIGHT 458 INET Expected\n2230000850298\nLIMITED\nTransaction Information\nNet Amt: 108.28 USD Balance Due: Ship Date: 08/27/2026 Tendered Date: 08/27/2026\nRevenue Date: 08/27/2026 CDO Reg Date: Meter Number: 258118400 Biling Cycle: 99\nForm ID: 0430 Group ID: Pickup Type: 0 Master Trkng #:\nInvoice|nformation\nInvoice #: Invoice Date: Invoice Age: Invoice Amount:\nInvoice Balance:\nShipper | nformation Recipient Information\nName: JAMES PARK Name: TRINNEE PECUNDO\nAcct #: 976466357 Acct #: 204819935\nCompany: PACIFIC WESTERN ENGINEERING, INC. Company: THE MASTER OF JASMIN 888\nAddress: 2443 W. 208TH ST. UNIT E3 Address: C/O FRABELLE PNG LTD\nAddress 2: Address 2: SECTION 277, LOT 1 SPEYBANK STREET\nCity: TORRANCE City: LAE\nState: CA Zip: 90501 Cntry/Terr: US State: Zip: Cntry/Terr: PG\nPhone #: Phone #:\nBill To Information Payment\nName: Payor: 2 - Bill Recipient\nAcct #: 204819935 Method: 01 - ACCT\nCompany: PNG AIR FREIGHT LIMITED Payment Source:\nAddress: PO BOX 6550 Grnd Sort Key:\nAddress 2: JACKSONS PDE, JACKSONS AIRPORT Bill Characteristics: CONS\nBill To Legal Entity: NZL\nCity: BOROKO NCD\nBill To Station: 5456\nState: Zip: Cntry/Terr: PG\nPhone #:",
+    "words": [
+      {
+        "content": "LOB",
+        "bbox": [
+          42,
+          15,
+          123,
+          45
+        ],
+        "confidence": 94.0
+      },
+      {
+        "content": "CO}",
+        "bbox": [
+          169,
+          15,
+          225,
+          45
+        ],
+        "confidence": 10.0
+      },
+      {
+        "content": "Trans)",
+        "bbox": [
+          264,
+          16,
+          366,
+          45
+        ],
+        "confidence": 0.0
+      },
+      {
+        "content": "Ship",
+        "bbox": [
+          429,
+          0,
+          521,
+          61
+        ],
+        "confidence": 44.0
+      },
+      {
+        "content": "Dt",
+        "bbox": [
+          536,
+          0,
+          579,
+          61
+        ],
+        "confidence": 44.0
+      },
+      {
+        "content": "lendered",
+        "bbox": [
+          676,
+          16,
+          856,
+          45
+        ],
+        "confidence": 54.0
+      },
+      {
+        "content": "RevenueDt",
+        "bbox": [
+          902,
+          15,
+          1131,
+          45
+        ],
+        "confidence": 81.0
+      },
+      {
+        "content": "Customs",
+        "bbox": [
+          1161,
+          15,
+          1338,
+          45
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Origin",
+        "bbox": [
+          1385,
+          15,
+          1504,
+          55
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Dest",
+        "bbox": [
+          1574,
+          15,
+          1663,
+          45
+        ],
+        "confidence": 79.0
+      },
+      {
+        "content": "Payor",
+        "bbox": [
+          1714,
+          15,
+          1824,
+          55
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          1839,
+          15,
+          1984,
+          45
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          2003,
+          15,
+          2148,
+          45
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          2170,
+          15,
+          2229,
+          45
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "To",
+        "bbox": [
+          2252,
+          16,
+          2293,
+          45
+        ],
+        "confidence": 88.0
+      },
+      {
+        "content": "Acct",
+        "bbox": [
+          2304,
+          15,
+          2395,
+          45
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          2462,
+          15,
+          2521,
+          45
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "To",
+        "bbox": [
+          2540,
+          16,
+          2581,
+          45
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Rev",
+        "bbox": [
+          2738,
+          16,
+          2810,
+          45
+        ],
+        "confidence": 79.0
+      },
+      {
+        "content": "item",
+        "bbox": [
+          2819,
+          15,
+          2910,
+          45
+        ],
+        "confidence": 79.0
+      },
+      {
+        "content": "Id",
+        "bbox": [
+          2923,
+          15,
+          2960,
+          45
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "CDU",
+        "bbox": [
+          3077,
+          15,
+          3161,
+          45
+        ],
+        "confidence": 82.0
+      },
+      {
+        "content": "Device",
+        "bbox": [
+          3186,
+          15,
+          3320,
+          45
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "ORS",
+        "bbox": [
+          3341,
+          15,
+          3427,
+          45
+        ],
+        "confidence": 63.0
+      },
+      {
+        "content": "Stage",
+        "bbox": [
+          3481,
+          15,
+          3596,
+          55
+        ],
+        "confidence": 77.0
+      },
+      {
+        "content": "Type",
+        "bbox": [
+          264,
+          63,
+          360,
+          107
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Dt",
+        "bbox": [
+          742,
+          63,
+          783,
+          97
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Entry",
+        "bbox": [
+          1170,
+          63,
+          1327,
+          107
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Dt",
+        "bbox": [
+          1295,
+          59,
+          1344,
+          111
+        ],
+        "confidence": 55.0
+      },
+      {
+        "content": "Station",
+        "bbox": [
+          1373,
+          63,
+          1516,
+          97
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "Station",
+        "bbox": [
+          1549,
+          63,
+          1688,
+          97
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "a",
+        "bbox": [
+          1901,
+          64,
+          1927,
+          96
+        ],
+        "confidence": 48.0
+      },
+      {
+        "content": "Dt",
+        "bbox": [
+          2058,
+          63,
+          2099,
+          97
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "a",
+        "bbox": [
+          2269,
+          64,
+          2295,
+          96
+        ],
+        "confidence": 48.0
+      },
+      {
+        "content": "Cust",
+        "bbox": [
+          2477,
+          63,
+          2567,
+          97
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Req",
+        "bbox": [
+          3082,
+          63,
+          3156,
+          107
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Flag",
+        "bbox": [
+          3342,
+          59,
+          3424,
+          107
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Name",
+        "bbox": [
+          2462,
+          120,
+          2580,
+          153
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Dt",
+        "bbox": [
+          3098,
+          119,
+          3143,
+          153
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "PNG",
+        "bbox": [
+          2438,
+          199,
+          2525,
+          234
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "AIR",
+        "bbox": [
+          2536,
+          199,
+          2608,
+          233
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "E",
+        "bbox": [
+          2839,
+          223,
+          2861,
+          257
+        ],
+        "confidence": 0.0
+      },
+      {
+        "content": "00002",
+        "bbox": [
+          21,
+          254,
+          144,
+          290
+        ],
+        "confidence": 71.0
+      },
+      {
+        "content": "002",
+        "bbox": [
+          161,
+          254,
+          237,
+          290
+        ],
+        "confidence": 71.0
+      },
+      {
+        "content": "S",
+        "bbox": [
+          301,
+          254,
+          326,
+          290
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          389,
+          254,
+          629,
+          292
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          645,
+          254,
+          881,
+          292
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          897,
+          254,
+          1137,
+          292
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "HHRKN",
+        "bbox": [
+          1370,
+          255,
+          1518,
+          289
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "POMA",
+        "bbox": [
+          1558,
+          255,
+          1681,
+          289
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "2",
+        "bbox": [
+          1757,
+          255,
+          1781,
+          289
+        ],
+        "confidence": 97.0
+      },
+      {
+        "content": "204819935",
+        "bbox": [
+          2169,
+          254,
+          2397,
+          290
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "FREIGHT",
+        "bbox": [
+          2434,
+          255,
+          2611,
+          290
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "2230000850298",
+        "bbox": [
+          2645,
+          278,
+          3048,
+          314
+        ],
+        "confidence": 79.0
+      },
+      {
+        "content": "458",
+        "bbox": [
+          2981,
+          274,
+          3052,
+          330
+        ],
+        "confidence": 79.0
+      },
+      {
+        "content": "INET",
+        "bbox": [
+          3207,
+          255,
+          3303,
+          289
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Expected",
+        "bbox": [
+          3446,
+          253,
+          3628,
+          299
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "LIMITED",
+        "bbox": [
+          2438,
+          311,
+          2604,
+          345
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Transaction",
+        "bbox": [
+          24,
+          399,
+          286,
+          438
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Information",
+        "bbox": [
+          304,
+          396,
+          562,
+          438
+        ],
+        "confidence": 94.0
+      },
+      {
+        "content": "Net",
+        "bbox": [
+          38,
+          503,
+          107,
+          538
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Amt:",
+        "bbox": [
+          116,
+          504,
+          210,
+          537
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "108.28",
+        "bbox": [
+          403,
+          502,
+          536,
+          538
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "USD",
+        "bbox": [
+          550,
+          502,
+          632,
+          538
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Balance",
+        "bbox": [
+          842,
+          499,
+          1000,
+          538
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Due:",
+        "bbox": [
+          1014,
+          503,
+          1102,
+          538
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Ship",
+        "bbox": [
+          1645,
+          501,
+          1733,
+          547
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Date:",
+        "bbox": [
+          1746,
+          503,
+          1846,
+          538
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          2009,
+          502,
+          2249,
+          540
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Tendered",
+        "bbox": [
+          2448,
+          501,
+          2636,
+          538
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Date:",
+        "bbox": [
+          2654,
+          503,
+          2754,
+          538
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          2817,
+          502,
+          3053,
+          540
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Revenue",
+        "bbox": [
+          38,
+          619,
+          208,
+          654
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Date:",
+        "bbox": [
+          222,
+          619,
+          322,
+          654
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "08/27/2026",
+        "bbox": [
+          401,
+          618,
+          641,
+          656
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "CDO",
+        "bbox": [
+          841,
+          619,
+          929,
+          654
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "Reg",
+        "bbox": [
+          942,
+          619,
+          1016,
+          663
+        ],
+        "confidence": 88.0
+      },
+      {
+        "content": "Date:",
+        "bbox": [
+          1034,
+          619,
+          1134,
+          654
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Meter",
+        "bbox": [
+          1646,
+          619,
+          1764,
+          654
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Number:",
+        "bbox": [
+          1778,
+          617,
+          1946,
+          654
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "258118400",
+        "bbox": [
+          2009,
+          618,
+          2236,
+          654
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Biling",
+        "bbox": [
+          2450,
+          615,
+          2572,
+          663
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Cycle:",
+        "bbox": [
+          2589,
+          615,
+          2706,
+          663
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "99",
+        "bbox": [
+          2817,
+          619,
+          2864,
+          653
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Form",
+        "bbox": [
+          38,
+          735,
+          138,
+          770
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "ID:",
+        "bbox": [
+          151,
+          735,
+          202,
+          769
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "0430",
+        "bbox": [
+          401,
+          734,
+          500,
+          770
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "0",
+        "bbox": [
+          2009,
+          735,
+          2038,
+          769
+        ],
+        "confidence": 67.0
+      },
+      {
+        "content": "Group",
+        "bbox": [
+          841,
+          731,
+          948,
+          784
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "ID:",
+        "bbox": [
+          971,
+          735,
+          1026,
+          769
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "Pickup",
+        "bbox": [
+          1646,
+          733,
+          1781,
+          779
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Type:",
+        "bbox": [
+          1792,
+          735,
+          1898,
+          779
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Master",
+        "bbox": [
+          2458,
+          739,
+          2596,
+          774
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Trkng",
+        "bbox": [
+          2608,
+          737,
+          2720,
+          783
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          2734,
+          740,
+          2769,
+          773
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Invoice|nformation",
+        "bbox": [
+          24,
+          884,
+          458,
+          926
+        ],
+        "confidence": 68.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          59,
+          1011,
+          196,
+          1046
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          210,
+          1012,
+          245,
+          1045
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          883,
+          1003,
+          1028,
+          1038
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Date:",
+        "bbox": [
+          1042,
+          1003,
+          1142,
+          1038
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          1719,
+          1003,
+          1864,
+          1038
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Age:",
+        "bbox": [
+          1876,
+          1004,
+          1966,
+          1047
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          2555,
+          1003,
+          2700,
+          1038
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Amount:",
+        "bbox": [
+          2712,
+          1004,
+          2878,
+          1038
+        ],
+        "confidence": 76.0
+      },
+      {
+        "content": "Invoice",
+        "bbox": [
+          47,
+          1135,
+          196,
+          1170
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Balance:",
+        "bbox": [
+          206,
+          1131,
+          378,
+          1170
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Shipper",
+        "bbox": [
+          25,
+          1285,
+          198,
+          1335
+        ],
+        "confidence": 87.0
+      },
+      {
+        "content": "|",
+        "bbox": [
+          208,
+          1284,
+          216,
+          1324
+        ],
+        "confidence": 82.0
+      },
+      {
+        "content": "nformation",
+        "bbox": [
+          226,
+          1285,
+          470,
+          1326
+        ],
+        "confidence": 85.0
+      },
+      {
+        "content": "Recipient",
+        "bbox": [
+          1258,
+          1287,
+          1464,
+          1335
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Information",
+        "bbox": [
+          1480,
+          1284,
+          1738,
+          1326
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Name:",
+        "bbox": [
+          26,
+          1379,
+          154,
+          1414
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "JAMES",
+        "bbox": [
+          288,
+          1378,
+          434,
+          1414
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "PARK",
+        "bbox": [
+          450,
+          1379,
+          556,
+          1413
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Name:",
+        "bbox": [
+          1258,
+          1379,
+          1386,
+          1414
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "TRINNEE",
+        "bbox": [
+          1520,
+          1379,
+          1705,
+          1413
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "PECUNDO",
+        "bbox": [
+          1718,
+          1379,
+          1918,
+          1414
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "Acct",
+        "bbox": [
+          24,
+          1476,
+          115,
+          1509
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          129,
+          1476,
+          166,
+          1509
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "976466357",
+        "bbox": [
+          289,
+          1475,
+          517,
+          1510
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Acct",
+        "bbox": [
+          1256,
+          1476,
+          1347,
+          1509
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          1361,
+          1476,
+          1398,
+          1509
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "204819935",
+        "bbox": [
+          1521,
+          1474,
+          1749,
+          1510
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "THE",
+        "bbox": [
+          1520,
+          1571,
+          1605,
+          1605
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "MASTER",
+        "bbox": [
+          1618,
+          1570,
+          1791,
+          1606
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "OF",
+        "bbox": [
+          1805,
+          1571,
+          1860,
+          1605
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "JASMIN",
+        "bbox": [
+          1872,
+          1570,
+          2034,
+          1606
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "888",
+        "bbox": [
+          2049,
+          1571,
+          2120,
+          1605
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Company:",
+        "bbox": [
+          25,
+          1571,
+          226,
+          1615
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "PACIFIC",
+        "bbox": [
+          290,
+          1571,
+          452,
+          1606
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "WESTERN",
+        "bbox": [
+          464,
+          1570,
+          666,
+          1606
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "ENGINEERING,",
+        "bbox": [
+          682,
+          1571,
+          972,
+          1612
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "INC.",
+        "bbox": [
+          987,
+          1571,
+          1069,
+          1606
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Company:",
+        "bbox": [
+          1257,
+          1571,
+          1458,
+          1615
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Address:",
+        "bbox": [
+          24,
+          1661,
+          202,
+          1698
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "2443",
+        "bbox": [
+          289,
+          1663,
+          388,
+          1698
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "W.",
+        "bbox": [
+          404,
+          1664,
+          449,
+          1697
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "208TH",
+        "bbox": [
+          465,
+          1662,
+          594,
+          1698
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "ST.",
+        "bbox": [
+          609,
+          1662,
+          665,
+          1698
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "UNIT",
+        "bbox": [
+          682,
+          1663,
+          779,
+          1698
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "E3",
+        "bbox": [
+          794,
+          1663,
+          840,
+          1698
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "Address:",
+        "bbox": [
+          1256,
+          1661,
+          1434,
+          1698
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "C/O",
+        "bbox": [
+          1521,
+          1663,
+          1598,
+          1700
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "FRABELLE",
+        "bbox": [
+          1614,
+          1663,
+          1821,
+          1697
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "PNG",
+        "bbox": [
+          1834,
+          1663,
+          1921,
+          1698
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "LTD",
+        "bbox": [
+          1938,
+          1663,
+          2008,
+          1697
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Address",
+        "bbox": [
+          24,
+          1757,
+          190,
+          1794
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "2:",
+        "bbox": [
+          205,
+          1759,
+          238,
+          1793
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Address",
+        "bbox": [
+          1256,
+          1757,
+          1422,
+          1794
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "2:",
+        "bbox": [
+          1437,
+          1759,
+          1470,
+          1793
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "SECTION",
+        "bbox": [
+          1521,
+          1758,
+          1702,
+          1794
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "277,",
+        "bbox": [
+          1717,
+          1759,
+          1800,
+          1800
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "LOT",
+        "bbox": [
+          1814,
+          1759,
+          1891,
+          1793
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "1",
+        "bbox": [
+          1903,
+          1759,
+          1918,
+          1792
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "SPEYBANK",
+        "bbox": [
+          1941,
+          1758,
+          2164,
+          1794
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "STREET",
+        "bbox": [
+          2177,
+          1758,
+          2335,
+          1794
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "City:",
+        "bbox": [
+          25,
+          1855,
+          114,
+          1899
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "TORRANCE",
+        "bbox": [
+          288,
+          1855,
+          517,
+          1890
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "City:",
+        "bbox": [
+          1257,
+          1855,
+          1346,
+          1899
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "LAE",
+        "bbox": [
+          1522,
+          1855,
+          1601,
+          1889
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "State:",
+        "bbox": [
+          25,
+          1950,
+          142,
+          1986
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "CA",
+        "bbox": [
+          301,
+          1951,
+          357,
+          1986
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Zip:",
+        "bbox": [
+          504,
+          1951,
+          578,
+          1995
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "90501",
+        "bbox": [
+          625,
+          1950,
+          746,
+          1986
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Cntry/Terr:",
+        "bbox": [
+          861,
+          1951,
+          1074,
+          1995
+        ],
+        "confidence": 89.0
+      },
+      {
+        "content": "US",
+        "bbox": [
+          1122,
+          1950,
+          1178,
+          1986
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "State:",
+        "bbox": [
+          1257,
+          1950,
+          1374,
+          1986
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Zip:",
+        "bbox": [
+          1736,
+          1951,
+          1810,
+          1995
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Cntry/Terr:",
+        "bbox": [
+          2069,
+          1951,
+          2286,
+          1995
+        ],
+        "confidence": 88.0
+      },
+      {
+        "content": "PG",
+        "bbox": [
+          2334,
+          1951,
+          2389,
+          1986
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Phone",
+        "bbox": [
+          26,
+          2041,
+          152,
+          2078
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          165,
+          2044,
+          202,
+          2077
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Phone",
+        "bbox": [
+          1258,
+          2041,
+          1384,
+          2078
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          1397,
+          2044,
+          1434,
+          2077
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          26,
+          2156,
+          92,
+          2196
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "To",
+        "bbox": [
+          108,
+          2159,
+          160,
+          2198
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Information",
+        "bbox": [
+          190,
+          2157,
+          434,
+          2198
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "Payment",
+        "bbox": [
+          1238,
+          2160,
+          1432,
+          2208
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Name:",
+        "bbox": [
+          26,
+          2255,
+          154,
+          2290
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Payor:",
+        "bbox": [
+          1238,
+          2255,
+          1362,
+          2299
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "2",
+        "bbox": [
+          1677,
+          2255,
+          1700,
+          2289
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "-",
+        "bbox": [
+          1712,
+          2271,
+          1724,
+          2277
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          1738,
+          2251,
+          1793,
+          2289
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "Recipient",
+        "bbox": [
+          1810,
+          2255,
+          1995,
+          2299
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Acct",
+        "bbox": [
+          27,
+          2351,
+          117,
+          2400
+        ],
+        "confidence": 85.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          133,
+          2351,
+          170,
+          2400
+        ],
+        "confidence": 85.0
+      },
+      {
+        "content": "204819935",
+        "bbox": [
+          289,
+          2350,
+          517,
+          2386
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Method:",
+        "bbox": [
+          1238,
+          2349,
+          1398,
+          2386
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "01",
+        "bbox": [
+          1677,
+          2350,
+          1718,
+          2386
+        ],
+        "confidence": 65.0
+      },
+      {
+        "content": "-",
+        "bbox": [
+          1736,
+          2367,
+          1748,
+          2373
+        ],
+        "confidence": 65.0
+      },
+      {
+        "content": "ACCT",
+        "bbox": [
+          1760,
+          2351,
+          1875,
+          2386
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Company:",
+        "bbox": [
+          25,
+          2443,
+          226,
+          2487
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "PNG",
+        "bbox": [
+          290,
+          2443,
+          381,
+          2478
+        ],
+        "confidence": 94.0
+      },
+      {
+        "content": "AIR",
+        "bbox": [
+          392,
+          2443,
+          459,
+          2477
+        ],
+        "confidence": 94.0
+      },
+      {
+        "content": "FREIGHT",
+        "bbox": [
+          474,
+          2443,
+          651,
+          2478
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "LIMITED",
+        "bbox": [
+          666,
+          2443,
+          832,
+          2477
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "Payment",
+        "bbox": [
+          1238,
+          2443,
+          1411,
+          2487
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Source:",
+        "bbox": [
+          1425,
+          2442,
+          1574,
+          2478
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Address:",
+        "bbox": [
+          24,
+          2537,
+          202,
+          2574
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "PO",
+        "bbox": [
+          290,
+          2539,
+          350,
+          2573
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "BOX",
+        "bbox": [
+          362,
+          2539,
+          448,
+          2573
+        ],
+        "confidence": 95.0
+      },
+      {
+        "content": "6550",
+        "bbox": [
+          462,
+          2538,
+          560,
+          2574
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Grnd",
+        "bbox": [
+          1233,
+          2533,
+          1319,
+          2587
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "Sort",
+        "bbox": [
+          1341,
+          2533,
+          1422,
+          2587
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Key:",
+        "bbox": [
+          1442,
+          2533,
+          1526,
+          2587
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Address",
+        "bbox": [
+          24,
+          2633,
+          190,
+          2670
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "2:",
+        "bbox": [
+          205,
+          2635,
+          238,
+          2669
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "JACKSONS",
+        "bbox": [
+          288,
+          2634,
+          518,
+          2670
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "PDE,",
+        "bbox": [
+          530,
+          2635,
+          620,
+          2676
+        ],
+        "confidence": 93.0
+      },
+      {
+        "content": "JACKSONS",
+        "bbox": [
+          632,
+          2634,
+          858,
+          2670
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "AIRPORT",
+        "bbox": [
+          872,
+          2635,
+          1051,
+          2669
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          1238,
+          2631,
+          1297,
+          2669
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Characteristics:",
+        "bbox": [
+          1309,
+          2633,
+          1622,
+          2670
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "CONS",
+        "bbox": [
+          1677,
+          2634,
+          1794,
+          2670
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          1238,
+          2687,
+          1297,
+          2725
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "To",
+        "bbox": [
+          1308,
+          2691,
+          1357,
+          2726
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Legal",
+        "bbox": [
+          1370,
+          2687,
+          1477,
+          2735
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Entity:",
+        "bbox": [
+          1490,
+          2691,
+          1614,
+          2735
+        ],
+        "confidence": 94.0
+      },
+      {
+        "content": "NZL",
+        "bbox": [
+          1678,
+          2691,
+          1760,
+          2725
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "City:",
+        "bbox": [
+          25,
+          2731,
+          114,
+          2775
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "BOROKO",
+        "bbox": [
+          290,
+          2731,
+          466,
+          2765
+        ],
+        "confidence": 91.0
+      },
+      {
+        "content": "NCD",
+        "bbox": [
+          478,
+          2731,
+          568,
+          2766
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Bill",
+        "bbox": [
+          1238,
+          2779,
+          1297,
+          2817
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "To",
+        "bbox": [
+          1308,
+          2783,
+          1357,
+          2818
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Station:",
+        "bbox": [
+          1369,
+          2782,
+          1522,
+          2818
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "5456",
+        "bbox": [
+          1679,
+          2783,
+          1777,
+          2818
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "State:",
+        "bbox": [
+          25,
+          2822,
+          142,
+          2858
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Zip:",
+        "bbox": [
+          504,
+          2823,
+          578,
+          2867
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Cntry/Terr:",
+        "bbox": [
+          837,
+          2823,
+          1054,
+          2867
+        ],
+        "confidence": 90.0
+      },
+      {
+        "content": "PG",
+        "bbox": [
+          1102,
+          2823,
+          1157,
+          2858
+        ],
+        "confidence": 96.0
+      },
+      {
+        "content": "Phone",
+        "bbox": [
+          26,
+          2917,
+          152,
+          2954
+        ],
+        "confidence": 92.0
+      },
+      {
+        "content": "#:",
+        "bbox": [
+          165,
+          2920,
+          202,
+          2953
+        ],
+        "confidence": 92.0
+      }
+    ],
+    "width": 3632,
+    "height": 3016,
+    "tables": [
+      {
+        "cells": [
+          {
+            "header": [
+              {
+                "content": "LOB",
+                "bbox": [
+                  42,
+                  16,
+                  123,
+                  45
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "00002",
+                "bbox": [
+                  21,
+                  254,
+                  144,
+                  290
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "co",
+                "bbox": [
+                  169,
+                  15,
+                  225,
+                  45
+                ],
+                "confidence": 48.0
+              }
+            ],
+            "values": [
+              {
+                "content": "002",
+                "bbox": [
+                  161,
+                  254,
+                  236,
+                  290
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Trans",
+                "bbox": [
+                  264,
+                  16,
+                  366,
+                  45
+                ],
+                "confidence": 85.0
+              },
+              {
+                "content": "Type",
+                "bbox": [
+                  264,
+                  63,
+                  360,
+                  107
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "S",
+                "bbox": [
+                  301,
+                  254,
+                  326,
+                  290
+                ],
+                "confidence": 89.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Ship",
+                "bbox": [
+                  437,
+                  15,
+                  524,
+                  55
+                ],
+                "confidence": 94.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  539,
+                  16,
+                  579,
+                  45
+                ],
+                "confidence": 91.0
+              }
+            ],
+            "values": [
+              {
+                "content": "08/27/2026",
+                "bbox": [
+                  389,
+                  254,
+                  628,
+                  292
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Tendered",
+                "bbox": [
+                  676,
+                  16,
+                  856,
+                  45
+                ],
+                "confidence": 80.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  743,
+                  63,
+                  783,
+                  97
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "08/27/2026",
+                "bbox": [
+                  645,
+                  254,
+                  880,
+                  292
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Revenue",
+                "bbox": [
+                  902,
+                  16,
+                  1076,
+                  45
+                ],
+                "confidence": 94.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  1086,
+                  15,
+                  1132,
+                  45
+                ],
+                "confidence": 94.0
+              }
+            ],
+            "values": [
+              {
+                "content": "08/27/2026",
+                "bbox": [
+                  897,
+                  254,
+                  1132,
+                  292
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Customs",
+                "bbox": [
+                  1161,
+                  16,
+                  1338,
+                  45
+                ],
+                "confidence": 95.0
+              },
+              {
+                "content": "Entry",
+                "bbox": [
+                  1171,
+                  63,
+                  1274,
+                  107
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  1287,
+                  63,
+                  1327,
+                  97
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": []
+          },
+          {
+            "header": [
+              {
+                "content": "Origin",
+                "bbox": [
+                  1385,
+                  16,
+                  1504,
+                  54
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Station",
+                "bbox": [
+                  1373,
+                  63,
+                  1516,
+                  97
+                ],
+                "confidence": 95.0
+              }
+            ],
+            "values": [
+              {
+                "content": "HHRKN",
+                "bbox": [
+                  1370,
+                  255,
+                  1518,
+                  288
+                ],
+                "confidence": 89.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Dest",
+                "bbox": [
+                  1575,
+                  15,
+                  1663,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Station",
+                "bbox": [
+                  1549,
+                  63,
+                  1688,
+                  97
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "POMA",
+                "bbox": [
+                  1558,
+                  255,
+                  1681,
+                  289
+                ],
+                "confidence": 92.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Payor",
+                "bbox": [
+                  1714,
+                  16,
+                  1824,
+                  55
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "2",
+                "bbox": [
+                  1757,
+                  255,
+                  1780,
+                  289
+                ],
+                "confidence": 97.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Invoice",
+                "bbox": [
+                  1840,
+                  15,
+                  1984,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "u",
+                "bbox": [
+                  1901,
+                  64,
+                  1927,
+                  96
+                ],
+                "confidence": 47.0
+              }
+            ],
+            "values": []
+          },
+          {
+            "header": [
+              {
+                "content": "Invoice",
+                "bbox": [
+                  2004,
+                  15,
+                  2148,
+                  45
+                ],
+                "confidence": 92.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  2059,
+                  63,
+                  2099,
+                  97
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": []
+          },
+          {
+            "header": [
+              {
+                "content": "Bill",
+                "bbox": [
+                  2171,
+                  15,
+                  2228,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "To",
+                "bbox": [
+                  2252,
+                  16,
+                  2292,
+                  45
+                ],
+                "confidence": 95.0
+              },
+              {
+                "content": "Acct",
+                "bbox": [
+                  2304,
+                  16,
+                  2395,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "a",
+                "bbox": [
+                  2269,
+                  64,
+                  2295,
+                  96
+                ],
+                "confidence": 48.0
+              }
+            ],
+            "values": [
+              {
+                "content": "204819935",
+                "bbox": [
+                  2169,
+                  254,
+                  2396,
+                  290
+                ],
+                "confidence": 95.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Bill",
+                "bbox": [
+                  2463,
+                  15,
+                  2520,
+                  45
+                ],
+                "confidence": 92.0
+              },
+              {
+                "content": "To",
+                "bbox": [
+                  2540,
+                  16,
+                  2580,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Cust",
+                "bbox": [
+                  2477,
+                  63,
+                  2567,
+                  97
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Name",
+                "bbox": [
+                  2463,
+                  120,
+                  2580,
+                  153
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "PNG",
+                "bbox": [
+                  2438,
+                  199,
+                  2525,
+                  233
+                ],
+                "confidence": 95.0
+              },
+              {
+                "content": "AIR",
+                "bbox": [
+                  2536,
+                  199,
+                  2607,
+                  233
+                ],
+                "confidence": 94.0
+              },
+              {
+                "content": "FREIGHT",
+                "bbox": [
+                  2434,
+                  255,
+                  2611,
+                  289
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "LIMITED",
+                "bbox": [
+                  2438,
+                  311,
+                  2604,
+                  345
+                ],
+                "confidence": 96.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "Rev",
+                "bbox": [
+                  2739,
+                  16,
+                  2810,
+                  45
+                ],
+                "confidence": 79.0
+              },
+              {
+                "content": "item",
+                "bbox": [
+                  2820,
+                  15,
+                  2909,
+                  45
+                ],
+                "confidence": 79.0
+              },
+              {
+                "content": "Id",
+                "bbox": [
+                  2924,
+                  15,
+                  2960,
+                  45
+                ],
+                "confidence": 95.0
+              }
+            ],
+            "values": [
+              {
+                "content": "2230000850298",
+                "bbox": [
+                  2645,
+                  278,
+                  3048,
+                  314
+                ],
+                "confidence": 82.0
+              },
+              {
+                "content": "458",
+                "bbox": [
+                  2981,
+                  274,
+                  3052,
+                  330
+                ],
+                "confidence": 82.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "CD",
+                "bbox": [
+                  3077,
+                  16,
+                  3161,
+                  45
+                ],
+                "confidence": 0.0
+              },
+              {
+                "content": "Req",
+                "bbox": [
+                  3083,
+                  63,
+                  3156,
+                  106
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Dt",
+                "bbox": [
+                  3099,
+                  119,
+                  3143,
+                  153
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": []
+          },
+          {
+            "header": [
+              {
+                "content": "Device",
+                "bbox": [
+                  3186,
+                  15,
+                  3320,
+                  45
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "INET",
+                "bbox": [
+                  3208,
+                  255,
+                  3303,
+                  289
+                ],
+                "confidence": 95.0
+              }
+            ]
+          },
+          {
+            "header": [
+              {
+                "content": "ORS",
+                "bbox": [
+                  3341,
+                  15,
+                  3428,
+                  45
+                ],
+                "confidence": 96.0
+              },
+              {
+                "content": "Flag",
+                "bbox": [
+                  3343,
+                  59,
+                  3424,
+                  106
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": []
+          },
+          {
+            "header": [
+              {
+                "content": "Stage",
+                "bbox": [
+                  3481,
+                  15,
+                  3596,
+                  54
+                ],
+                "confidence": 96.0
+              }
+            ],
+            "values": [
+              {
+                "content": "Expected",
+                "bbox": [
+                  3446,
+                  254,
+                  3628,
+                  299
+                ],
+                "confidence": 96.0
+              }
+            ]
+          }
+        ],
+        "bbox": [
+          12,
+          0,
+          3632,
+          360
+        ]
+      }
+    ]
+  },
+  "mapping": {
+    "payload": {
+      "doctype": "RDA Information",
+      "net_amount": 108.28,
+      "currency": "USD",
+      "transaction_ship_date": "2026-08-27",
+      "transaction_tendered_date": "2026-08-27",
+      "transaction_revenue_date": "2026-08-27",
+      "meter_number": "258118400",
+      "billing_cycle": "99",
+      "form_id": "0430",
+      "pickup_type": "0",
+      "shipper_name": "JAMES PARK",
+      "shipper_account_number": "976466357",
+      "shipper_company": "PACIFIC WESTERN ENGINEERING, INC.",
+      "shipper_address_line_1": "2443 W. 208TH ST. UNIT E3",
+      "shipper_city": "TORRANCE",
+      "shipper_state": "CA",
+      "shipper_zip_code": "90501",
+      "shipper_country": "US",
+      "recipient_name": "TRINNEE PECUNDO",
+      "recipient_account_number": "204819935",
+      "recipient_company": "THE MASTER OF JASMIN 888",
+      "recipient_address_line_1": "C/O FRABELLE PNG LTD",
+      "recipient_address_line_2": "SECTION 277, LOT 1 SPEYBANK STREET",
+      "recipient_city": "LAE",
+      "recipient_country": "PG",
+      "bill_to_account_number": "204819935",
+      "bill_to_company": "PNG AIR FREIGHT LIMITED",
+      "bill_to_address_line_1": "PO BOX 6550",
+      "bill_to_address_line_2": "JACKSONS PDE, JACKSONS AIRPORT",
+      "bill_to_city": "BOROKO NCD",
+      "bill_to_country": "PG",
+      "payment_payor": "2 - Bill Recipient",
+      "payment_method": "01 - ACCT",
+      "bill_characteristics": "CONS",
+      "bill_to_legal_entity": "NZL",
+      "bill_to_station": "5456",
+      "lob": "00002",
+      "co": "002",
+      "transaction_type": "S",
+      "ship_date": "2026-08-27",
+      "tendered_date": "2026-08-27",
+      "revenue_date": "2026-08-27",
+      "origin_station": "HHRKN",
+      "destination_station": "POMA",
+      "payor_code": "2",
+      "summary_bill_to_account_number": "204819935",
+      "bill_to_customer_name": "PNG AIR FREIGHT LIMITED",
+      "revenue_item_id": "2230000850298458",
+      "device_flag": "INET",
+      "stage": "Expected"
+    },
+    "issues": [
+      {
+        "fieldname": "pickup_type",
+        "message": "Low OCR confidence; verify the value",
+        "raw_value": "0"
+      },
+      {
+        "fieldname": "payment_method",
+        "message": "Low OCR confidence; verify the value",
+        "raw_value": "01 - ACCT"
+      }
+    ],
+    "evidence": {
+      "net_amount": [
+        {
+          "content": "108.28",
+          "bbox": [
+            403,
+            502,
+            536,
+            538
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "USD",
+          "bbox": [
+            550,
+            502,
+            632,
+            538
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "currency": [
+        {
+          "content": "108.28",
+          "bbox": [
+            403,
+            502,
+            536,
+            538
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "USD",
+          "bbox": [
+            550,
+            502,
+            632,
+            538
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "transaction_ship_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            2009,
+            502,
+            2249,
+            540
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "transaction_tendered_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            2817,
+            502,
+            3053,
+            540
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "transaction_revenue_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            401,
+            618,
+            641,
+            656
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "meter_number": [
+        {
+          "content": "258118400",
+          "bbox": [
+            2009,
+            618,
+            2236,
+            654
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "billing_cycle": [
+        {
+          "content": "99",
+          "bbox": [
+            2817,
+            619,
+            2864,
+            653
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "form_id": [
+        {
+          "content": "0430",
+          "bbox": [
+            401,
+            734,
+            500,
+            770
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "pickup_type": [
+        {
+          "content": "0",
+          "bbox": [
+            2009,
+            735,
+            2038,
+            769
+          ],
+          "confidence": 67.0
+        }
+      ],
+      "shipper_name": [
+        {
+          "content": "JAMES",
+          "bbox": [
+            288,
+            1378,
+            434,
+            1414
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "PARK",
+          "bbox": [
+            450,
+            1379,
+            556,
+            1413
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "shipper_account_number": [
+        {
+          "content": "976466357",
+          "bbox": [
+            289,
+            1475,
+            517,
+            1510
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "shipper_company": [
+        {
+          "content": "PACIFIC",
+          "bbox": [
+            290,
+            1571,
+            452,
+            1606
+          ],
+          "confidence": 90.0
+        },
+        {
+          "content": "WESTERN",
+          "bbox": [
+            464,
+            1570,
+            666,
+            1606
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "ENGINEERING,",
+          "bbox": [
+            682,
+            1571,
+            972,
+            1612
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "INC.",
+          "bbox": [
+            987,
+            1571,
+            1069,
+            1606
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "shipper_address_line_1": [
+        {
+          "content": "2443",
+          "bbox": [
+            289,
+            1663,
+            388,
+            1698
+          ],
+          "confidence": 93.0
+        },
+        {
+          "content": "W.",
+          "bbox": [
+            404,
+            1664,
+            449,
+            1697
+          ],
+          "confidence": 92.0
+        },
+        {
+          "content": "208TH",
+          "bbox": [
+            465,
+            1662,
+            594,
+            1698
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "ST.",
+          "bbox": [
+            609,
+            1662,
+            665,
+            1698
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "UNIT",
+          "bbox": [
+            682,
+            1663,
+            779,
+            1698
+          ],
+          "confidence": 93.0
+        },
+        {
+          "content": "E3",
+          "bbox": [
+            794,
+            1663,
+            840,
+            1698
+          ],
+          "confidence": 90.0
+        }
+      ],
+      "shipper_city": [
+        {
+          "content": "TORRANCE",
+          "bbox": [
+            288,
+            1855,
+            517,
+            1890
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "shipper_state": [
+        {
+          "content": "CA",
+          "bbox": [
+            301,
+            1951,
+            357,
+            1986
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "shipper_zip_code": [
+        {
+          "content": "90501",
+          "bbox": [
+            625,
+            1950,
+            746,
+            1986
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "shipper_country": [
+        {
+          "content": "US",
+          "bbox": [
+            1122,
+            1950,
+            1178,
+            1986
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "recipient_name": [
+        {
+          "content": "TRINNEE",
+          "bbox": [
+            1520,
+            1379,
+            1705,
+            1413
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "PECUNDO",
+          "bbox": [
+            1718,
+            1379,
+            1918,
+            1414
+          ],
+          "confidence": 91.0
+        }
+      ],
+      "recipient_account_number": [
+        {
+          "content": "204819935",
+          "bbox": [
+            1521,
+            1474,
+            1749,
+            1510
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "recipient_company": [
+        {
+          "content": "THE",
+          "bbox": [
+            1520,
+            1571,
+            1605,
+            1605
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "MASTER",
+          "bbox": [
+            1618,
+            1570,
+            1791,
+            1606
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "OF",
+          "bbox": [
+            1805,
+            1571,
+            1860,
+            1605
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "JASMIN",
+          "bbox": [
+            1872,
+            1570,
+            2034,
+            1606
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "888",
+          "bbox": [
+            2049,
+            1571,
+            2120,
+            1605
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "recipient_address_line_1": [
+        {
+          "content": "C/O",
+          "bbox": [
+            1521,
+            1663,
+            1598,
+            1700
+          ],
+          "confidence": 93.0
+        },
+        {
+          "content": "FRABELLE",
+          "bbox": [
+            1614,
+            1663,
+            1821,
+            1697
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "PNG",
+          "bbox": [
+            1834,
+            1663,
+            1921,
+            1698
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "LTD",
+          "bbox": [
+            1938,
+            1663,
+            2008,
+            1697
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "recipient_address_line_2": [
+        {
+          "content": "SECTION",
+          "bbox": [
+            1521,
+            1758,
+            1702,
+            1794
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "277,",
+          "bbox": [
+            1717,
+            1759,
+            1800,
+            1800
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "LOT",
+          "bbox": [
+            1814,
+            1759,
+            1891,
+            1793
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "1",
+          "bbox": [
+            1903,
+            1759,
+            1918,
+            1792
+          ],
+          "confidence": 93.0
+        },
+        {
+          "content": "SPEYBANK",
+          "bbox": [
+            1941,
+            1758,
+            2164,
+            1794
+          ],
+          "confidence": 92.0
+        },
+        {
+          "content": "STREET",
+          "bbox": [
+            2177,
+            1758,
+            2335,
+            1794
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "recipient_city": [
+        {
+          "content": "LAE",
+          "bbox": [
+            1522,
+            1855,
+            1601,
+            1889
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "recipient_country": [
+        {
+          "content": "PG",
+          "bbox": [
+            2334,
+            1951,
+            2389,
+            1986
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_account_number": [
+        {
+          "content": "204819935",
+          "bbox": [
+            289,
+            2350,
+            517,
+            2386
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_company": [
+        {
+          "content": "PNG",
+          "bbox": [
+            290,
+            2443,
+            381,
+            2478
+          ],
+          "confidence": 94.0
+        },
+        {
+          "content": "AIR",
+          "bbox": [
+            392,
+            2443,
+            459,
+            2477
+          ],
+          "confidence": 94.0
+        },
+        {
+          "content": "FREIGHT",
+          "bbox": [
+            474,
+            2443,
+            651,
+            2478
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "LIMITED",
+          "bbox": [
+            666,
+            2443,
+            832,
+            2477
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "bill_to_address_line_1": [
+        {
+          "content": "PO",
+          "bbox": [
+            290,
+            2539,
+            350,
+            2573
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "BOX",
+          "bbox": [
+            362,
+            2539,
+            448,
+            2573
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "6550",
+          "bbox": [
+            462,
+            2538,
+            560,
+            2574
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_address_line_2": [
+        {
+          "content": "JACKSONS",
+          "bbox": [
+            288,
+            2634,
+            518,
+            2670
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "PDE,",
+          "bbox": [
+            530,
+            2635,
+            620,
+            2676
+          ],
+          "confidence": 93.0
+        },
+        {
+          "content": "JACKSONS",
+          "bbox": [
+            632,
+            2634,
+            858,
+            2670
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "AIRPORT",
+          "bbox": [
+            872,
+            2635,
+            1051,
+            2669
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_city": [
+        {
+          "content": "BOROKO",
+          "bbox": [
+            290,
+            2731,
+            466,
+            2765
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "NCD",
+          "bbox": [
+            478,
+            2731,
+            568,
+            2766
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_country": [
+        {
+          "content": "PG",
+          "bbox": [
+            1102,
+            2823,
+            1157,
+            2858
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "payment_payor": [
+        {
+          "content": "2",
+          "bbox": [
+            1677,
+            2255,
+            1700,
+            2289
+          ],
+          "confidence": 90.0
+        },
+        {
+          "content": "-",
+          "bbox": [
+            1712,
+            2271,
+            1724,
+            2277
+          ],
+          "confidence": 90.0
+        },
+        {
+          "content": "Bill",
+          "bbox": [
+            1738,
+            2251,
+            1793,
+            2289
+          ],
+          "confidence": 91.0
+        },
+        {
+          "content": "Recipient",
+          "bbox": [
+            1810,
+            2255,
+            1995,
+            2299
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "payment_method": [
+        {
+          "content": "01",
+          "bbox": [
+            1677,
+            2350,
+            1718,
+            2386
+          ],
+          "confidence": 65.0
+        },
+        {
+          "content": "-",
+          "bbox": [
+            1736,
+            2367,
+            1748,
+            2373
+          ],
+          "confidence": 65.0
+        },
+        {
+          "content": "ACCT",
+          "bbox": [
+            1760,
+            2351,
+            1875,
+            2386
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_characteristics": [
+        {
+          "content": "CONS",
+          "bbox": [
+            1677,
+            2634,
+            1794,
+            2670
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_legal_entity": [
+        {
+          "content": "NZL",
+          "bbox": [
+            1678,
+            2691,
+            1760,
+            2725
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "bill_to_station": [
+        {
+          "content": "5456",
+          "bbox": [
+            1679,
+            2783,
+            1777,
+            2818
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "lob": [
+        {
+          "content": "00002",
+          "bbox": [
+            21,
+            254,
+            144,
+            290
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "co": [
+        {
+          "content": "002",
+          "bbox": [
+            161,
+            254,
+            236,
+            290
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "transaction_type": [
+        {
+          "content": "S",
+          "bbox": [
+            301,
+            254,
+            326,
+            290
+          ],
+          "confidence": 89.0
+        }
+      ],
+      "ship_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            389,
+            254,
+            628,
+            292
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "tendered_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            645,
+            254,
+            880,
+            292
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "revenue_date": [
+        {
+          "content": "08/27/2026",
+          "bbox": [
+            897,
+            254,
+            1132,
+            292
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "origin_station": [
+        {
+          "content": "HHRKN",
+          "bbox": [
+            1370,
+            255,
+            1518,
+            288
+          ],
+          "confidence": 89.0
+        }
+      ],
+      "destination_station": [
+        {
+          "content": "POMA",
+          "bbox": [
+            1558,
+            255,
+            1681,
+            289
+          ],
+          "confidence": 92.0
+        }
+      ],
+      "payor_code": [
+        {
+          "content": "2",
+          "bbox": [
+            1757,
+            255,
+            1780,
+            289
+          ],
+          "confidence": 97.0
+        }
+      ],
+      "summary_bill_to_account_number": [
+        {
+          "content": "204819935",
+          "bbox": [
+            2169,
+            254,
+            2396,
+            290
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "bill_to_customer_name": [
+        {
+          "content": "PNG",
+          "bbox": [
+            2438,
+            199,
+            2525,
+            233
+          ],
+          "confidence": 95.0
+        },
+        {
+          "content": "AIR",
+          "bbox": [
+            2536,
+            199,
+            2607,
+            233
+          ],
+          "confidence": 94.0
+        },
+        {
+          "content": "FREIGHT",
+          "bbox": [
+            2434,
+            255,
+            2611,
+            289
+          ],
+          "confidence": 96.0
+        },
+        {
+          "content": "LIMITED",
+          "bbox": [
+            2438,
+            311,
+            2604,
+            345
+          ],
+          "confidence": 96.0
+        }
+      ],
+      "revenue_item_id": [
+        {
+          "content": "2230000850298458",
+          "bbox": [
+            2645,
+            274,
+            3052,
+            330
+          ],
+          "confidence": 82.0
+        }
+      ],
+      "device_flag": [
+        {
+          "content": "INET",
+          "bbox": [
+            3208,
+            255,
+            3303,
+            289
+          ],
+          "confidence": 95.0
+        }
+      ],
+      "stage": [
+        {
+          "content": "Expected",
+          "bbox": [
+            3446,
+            254,
+            3628,
+            299
+          ],
+          "confidence": 96.0
+        }
+      ]
+    }
+  }
+}

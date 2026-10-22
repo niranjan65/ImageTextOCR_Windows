@@ -1,0 +1,325 @@
+{
+  "site": "https://skylink.dev.advtinni.com",
+  "source_image": "tests_support/fixtures/reported_rda_capture.png",
+  "source_kind": "local_screenshot",
+  "records": [
+    {
+      "name": "qmnhsccr9b",
+      "url": "https://skylink.dev.advtinni.com/desk/rda-information/qmnhsccr9b",
+      "verified_fields": 49,
+      "field_comparisons": [
+        {
+          "fieldname": "net_amount",
+          "expected": 108.28,
+          "actual": 108.28
+        },
+        {
+          "fieldname": "currency",
+          "expected": "USD",
+          "actual": "USD"
+        },
+        {
+          "fieldname": "transaction_ship_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "transaction_tendered_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "transaction_revenue_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "meter_number",
+          "expected": "258118400",
+          "actual": "258118400"
+        },
+        {
+          "fieldname": "billing_cycle",
+          "expected": "99",
+          "actual": "99"
+        },
+        {
+          "fieldname": "form_id",
+          "expected": "0430",
+          "actual": "0430"
+        },
+        {
+          "fieldname": "pickup_type",
+          "expected": "0",
+          "actual": "0"
+        },
+        {
+          "fieldname": "shipper_name",
+          "expected": "JAMES PARK",
+          "actual": "JAMES PARK"
+        },
+        {
+          "fieldname": "shipper_account_number",
+          "expected": "976466357",
+          "actual": "976466357"
+        },
+        {
+          "fieldname": "shipper_company",
+          "expected": "PACIFIC WESTERN ENGINEERING, INC.",
+          "actual": "PACIFIC WESTERN ENGINEERING, INC."
+        },
+        {
+          "fieldname": "shipper_address_line_1",
+          "expected": "2443 W. 208TH ST. UNIT E3",
+          "actual": "2443 W. 208TH ST. UNIT E3"
+        },
+        {
+          "fieldname": "shipper_city",
+          "expected": "TORRANCE",
+          "actual": "TORRANCE"
+        },
+        {
+          "fieldname": "shipper_state",
+          "expected": "CA",
+          "actual": "CA"
+        },
+        {
+          "fieldname": "shipper_zip_code",
+          "expected": "90501",
+          "actual": "90501"
+        },
+        {
+          "fieldname": "shipper_country",
+          "expected": "US",
+          "actual": "US"
+        },
+        {
+          "fieldname": "recipient_name",
+          "expected": "TRINNEE PECUNDO",
+          "actual": "TRINNEE PECUNDO"
+        },
+        {
+          "fieldname": "recipient_account_number",
+          "expected": "204819935",
+          "actual": "204819935"
+        },
+        {
+          "fieldname": "recipient_company",
+          "expected": "THE MASTER OF JASMIN 888",
+          "actual": "THE MASTER OF JASMIN 888"
+        },
+        {
+          "fieldname": "recipient_address_line_1",
+          "expected": "C/O FRABELLE PNG LTD",
+          "actual": "C/O FRABELLE PNG LTD"
+        },
+        {
+          "fieldname": "recipient_address_line_2",
+          "expected": "SECTION 277, LOT 1 SPEYBANK STREET",
+          "actual": "SECTION 277, LOT 1 SPEYBANK STREET"
+        },
+        {
+          "fieldname": "recipient_city",
+          "expected": "LAE",
+          "actual": "LAE"
+        },
+        {
+          "fieldname": "recipient_country",
+          "expected": "PG",
+          "actual": "PG"
+        },
+        {
+          "fieldname": "bill_to_account_number",
+          "expected": "204819935",
+          "actual": "204819935"
+        },
+        {
+          "fieldname": "bill_to_company",
+          "expected": "PNG AIR FREIGHT LIMITED",
+          "actual": "PNG AIR FREIGHT LIMITED"
+        },
+        {
+          "fieldname": "bill_to_address_line_1",
+          "expected": "PO BOX 6550",
+          "actual": "PO BOX 6550"
+        },
+        {
+          "fieldname": "bill_to_address_line_2",
+          "expected": "JACKSONS PDE, JACKSONS AIRPORT",
+          "actual": "JACKSONS PDE, JACKSONS AIRPORT"
+        },
+        {
+          "fieldname": "bill_to_city",
+          "expected": "BOROKO NCD",
+          "actual": "BOROKO NCD"
+        },
+        {
+          "fieldname": "bill_to_country",
+          "expected": "PG",
+          "actual": "PG"
+        },
+        {
+          "fieldname": "payment_payor",
+          "expected": "2 - Bill Recipient",
+          "actual": "2 - Bill Recipient"
+        },
+        {
+          "fieldname": "payment_method",
+          "expected": "01 - ACCT",
+          "actual": "01 - ACCT"
+        },
+        {
+          "fieldname": "bill_characteristics",
+          "expected": "CONS",
+          "actual": "CONS"
+        },
+        {
+          "fieldname": "bill_to_legal_entity",
+          "expected": "NZL",
+          "actual": "NZL"
+        },
+        {
+          "fieldname": "bill_to_station",
+          "expected": "5456",
+          "actual": "5456"
+        },
+        {
+          "fieldname": "lob",
+          "expected": "00002",
+          "actual": "00002"
+        },
+        {
+          "fieldname": "co",
+          "expected": "002",
+          "actual": "002"
+        },
+        {
+          "fieldname": "transaction_type",
+          "expected": "S",
+          "actual": "S"
+        },
+        {
+          "fieldname": "ship_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "tendered_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "revenue_date",
+          "expected": "2026-08-27",
+          "actual": "2026-08-27"
+        },
+        {
+          "fieldname": "origin_station",
+          "expected": "HHRKN",
+          "actual": "HHRKN"
+        },
+        {
+          "fieldname": "destination_station",
+          "expected": "POMA",
+          "actual": "POMA"
+        },
+        {
+          "fieldname": "payor_code",
+          "expected": "2",
+          "actual": "2"
+        },
+        {
+          "fieldname": "summary_bill_to_account_number",
+          "expected": "204819935",
+          "actual": "204819935"
+        },
+        {
+          "fieldname": "bill_to_customer_name",
+          "expected": "PNG AIR FREIGHT LIMITED",
+          "actual": "PNG AIR FREIGHT LIMITED"
+        },
+        {
+          "fieldname": "revenue_item_id",
+          "expected": "2230000850298458",
+          "actual": "2230000850298458"
+        },
+        {
+          "fieldname": "device_flag",
+          "expected": "INET",
+          "actual": "INET"
+        },
+        {
+          "fieldname": "stage",
+          "expected": "Expected",
+          "actual": "Expected"
+        }
+      ]
+    }
+  ],
+  "payload": {
+    "doctype": "RDA Information",
+    "net_amount": 108.28,
+    "currency": "USD",
+    "transaction_ship_date": "2026-08-27",
+    "transaction_tendered_date": "2026-08-27",
+    "transaction_revenue_date": "2026-08-27",
+    "meter_number": "258118400",
+    "billing_cycle": "99",
+    "form_id": "0430",
+    "pickup_type": "0",
+    "shipper_name": "JAMES PARK",
+    "shipper_account_number": "976466357",
+    "shipper_company": "PACIFIC WESTERN ENGINEERING, INC.",
+    "shipper_address_line_1": "2443 W. 208TH ST. UNIT E3",
+    "shipper_city": "TORRANCE",
+    "shipper_state": "CA",
+    "shipper_zip_code": "90501",
+    "shipper_country": "US",
+    "recipient_name": "TRINNEE PECUNDO",
+    "recipient_account_number": "204819935",
+    "recipient_company": "THE MASTER OF JASMIN 888",
+    "recipient_address_line_1": "C/O FRABELLE PNG LTD",
+    "recipient_address_line_2": "SECTION 277, LOT 1 SPEYBANK STREET",
+    "recipient_city": "LAE",
+    "recipient_country": "PG",
+    "bill_to_account_number": "204819935",
+    "bill_to_company": "PNG AIR FREIGHT LIMITED",
+    "bill_to_address_line_1": "PO BOX 6550",
+    "bill_to_address_line_2": "JACKSONS PDE, JACKSONS AIRPORT",
+    "bill_to_city": "BOROKO NCD",
+    "bill_to_country": "PG",
+    "payment_payor": "2 - Bill Recipient",
+    "payment_method": "01 - ACCT",
+    "bill_characteristics": "CONS",
+    "bill_to_legal_entity": "NZL",
+    "bill_to_station": "5456",
+    "lob": "00002",
+    "co": "002",
+    "transaction_type": "S",
+    "ship_date": "2026-08-27",
+    "tendered_date": "2026-08-27",
+    "revenue_date": "2026-08-27",
+    "origin_station": "HHRKN",
+    "destination_station": "POMA",
+    "payor_code": "2",
+    "summary_bill_to_account_number": "204819935",
+    "bill_to_customer_name": "PNG AIR FREIGHT LIMITED",
+    "revenue_item_id": "2230000850298458",
+    "device_flag": "INET",
+    "stage": "Expected"
+  },
+  "mapping_issues": [
+    {
+      "fieldname": "pickup_type",
+      "message": "Low OCR confidence; verify the value",
+      "raw_value": "0"
+    },
+    {
+      "fieldname": "payment_method",
+      "message": "Low OCR confidence; verify the value",
+      "raw_value": "01 - ACCT"
+    }
+  ],
+  "status": "verified",
+  "distinct_record_names": true
+}

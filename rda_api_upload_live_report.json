@@ -1,0 +1,50 @@
+{
+  "site": "https://skylink.dev.advtinni.com",
+  "source_image": ".superpowers/sdd/automatic-rda-upload/live_rda_fixture.png",
+  "source_kind": "synthetic_fixture",
+  "records": [
+    {
+      "name": "8577lhrctc",
+      "url": "https://skylink.dev.advtinni.com/desk/rda-information/8577lhrctc",
+      "verified_fields": 5,
+      "field_comparisons": [
+        {
+          "fieldname": "net_amount",
+          "expected": 108.28,
+          "actual": 108.28
+        },
+        {
+          "fieldname": "currency",
+          "expected": "USD",
+          "actual": "USD"
+        },
+        {
+          "fieldname": "form_id",
+          "expected": "0430",
+          "actual": "0430"
+        },
+        {
+          "fieldname": "shipper_name",
+          "expected": "JAMES PARK",
+          "actual": "JAMES PARK"
+        },
+        {
+          "fieldname": "revenue_item_id",
+          "expected": "2230000850298458",
+          "actual": "2230000850298458"
+        }
+      ]
+    }
+  ],
+  "payload": {
+    "doctype": "RDA Information",
+    "net_amount": 108.28,
+    "currency": "USD",
+    "form_id": "0430",
+    "shipper_name": "JAMES PARK",
+    "revenue_item_id": "2230000850298458"
+  },
+  "mapping_issues": [],
+  "status": "verified",
+  "distinct_record_names": true
+}

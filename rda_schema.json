@@ -1,0 +1,1044 @@
+{
+  "doctype": "RDA Information",
+  "fields": [
+    {
+      "fieldname": "lob",
+      "fieldtype": "Data",
+      "label": "LOB",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "LOB"
+      ]
+    },
+    {
+      "fieldname": "co",
+      "fieldtype": "Data",
+      "label": "CO",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "CO"
+      ]
+    },
+    {
+      "fieldname": "transaction_type",
+      "fieldtype": "Data",
+      "label": "Transaction Type",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Transaction Type",
+        "Trans Type"
+      ]
+    },
+    {
+      "fieldname": "ship_date",
+      "fieldtype": "Date",
+      "label": "Ship Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Ship Date",
+        "Ship Dt"
+      ]
+    },
+    {
+      "fieldname": "tendered_date",
+      "fieldtype": "Date",
+      "label": "Tendered Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Tendered Date",
+        "Tendered Dt"
+      ]
+    },
+    {
+      "fieldname": "revenue_date",
+      "fieldtype": "Date",
+      "label": "Revenue Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Revenue Date",
+        "Revenue Dt"
+      ]
+    },
+    {
+      "fieldname": "customs_entry_date",
+      "fieldtype": "Date",
+      "label": "Customs Entry Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Customs Entry Date",
+        "Customs Entry Dt"
+      ]
+    },
+    {
+      "fieldname": "origin_station",
+      "fieldtype": "Data",
+      "label": "Origin Station",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Origin Station"
+      ]
+    },
+    {
+      "fieldname": "destination_station",
+      "fieldtype": "Data",
+      "label": "Destination Station",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Destination Station",
+        "Dest Station"
+      ]
+    },
+    {
+      "fieldname": "payor_code",
+      "fieldtype": "Data",
+      "label": "Payor",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Payor"
+      ]
+    },
+    {
+      "fieldname": "summary_invoice_number",
+      "fieldtype": "Data",
+      "label": "Invoice #",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Invoice #"
+      ]
+    },
+    {
+      "fieldname": "summary_invoice_date",
+      "fieldtype": "Date",
+      "label": "Invoice Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Invoice Date",
+        "Invoice Dt"
+      ]
+    },
+    {
+      "fieldname": "summary_bill_to_account_number",
+      "fieldtype": "Data",
+      "label": "Bill To Account #",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Bill To Account #",
+        "Bill To Acct #",
+        "Acct #"
+      ]
+    },
+    {
+      "fieldname": "bill_to_customer_name",
+      "fieldtype": "Data",
+      "label": "Bill To Customer Name",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Bill To Customer Name",
+        "Bill To Cust Name"
+      ]
+    },
+    {
+      "fieldname": "revenue_item_id",
+      "fieldtype": "Data",
+      "label": "Revenue Item ID",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Revenue Item ID",
+        "Rev Item Id"
+      ]
+    },
+    {
+      "fieldname": "cdo_required_date",
+      "fieldtype": "Date",
+      "label": "CDO Required Date",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "CDO Required Date",
+        "CDO Req Dt"
+      ]
+    },
+    {
+      "fieldname": "device_flag",
+      "fieldtype": "Data",
+      "label": "Device Flag",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Device Flag",
+        "Device"
+      ]
+    },
+    {
+      "fieldname": "ors_flag",
+      "fieldtype": "Data",
+      "label": "ORS Flag",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "ORS Flag"
+      ]
+    },
+    {
+      "fieldname": "stage",
+      "fieldtype": "Data",
+      "label": "Stage",
+      "reqd": 0,
+      "section": "RDA Summary",
+      "aliases": [
+        "Stage"
+      ]
+    },
+    {
+      "fieldname": "net_amount",
+      "fieldtype": "Currency",
+      "label": "Net Amount",
+      "options": "currency",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Net Amount",
+        "Net Amt"
+      ]
+    },
+    {
+      "fieldname": "currency",
+      "fieldtype": "Link",
+      "label": "Currency",
+      "options": "Currency",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Currency"
+      ]
+    },
+    {
+      "fieldname": "balance_due",
+      "fieldtype": "Currency",
+      "label": "Balance Due",
+      "options": "currency",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Balance Due"
+      ]
+    },
+    {
+      "fieldname": "transaction_ship_date",
+      "fieldtype": "Date",
+      "label": "Ship Date",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Ship Date"
+      ]
+    },
+    {
+      "fieldname": "transaction_tendered_date",
+      "fieldtype": "Date",
+      "label": "Tendered Date",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Tendered Date"
+      ]
+    },
+    {
+      "fieldname": "transaction_revenue_date",
+      "fieldtype": "Date",
+      "label": "Revenue Date",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Revenue Date"
+      ]
+    },
+    {
+      "fieldname": "transaction_cdo_required_date",
+      "fieldtype": "Date",
+      "label": "CDO Req Date",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "CDO Req Date",
+        "CDO Req Date"
+      ]
+    },
+    {
+      "fieldname": "meter_number",
+      "fieldtype": "Data",
+      "label": "Meter Number",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Meter Number"
+      ]
+    },
+    {
+      "fieldname": "billing_cycle",
+      "fieldtype": "Data",
+      "label": "Billing Cycle",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Billing Cycle"
+      ]
+    },
+    {
+      "fieldname": "form_id",
+      "fieldtype": "Data",
+      "label": "Form ID",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Form ID"
+      ]
+    },
+    {
+      "fieldname": "group_id",
+      "fieldtype": "Data",
+      "label": "Group ID",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Group ID"
+      ]
+    },
+    {
+      "fieldname": "pickup_type",
+      "fieldtype": "Data",
+      "label": "Pickup Type",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Pickup Type"
+      ]
+    },
+    {
+      "fieldname": "master_tracking_number",
+      "fieldtype": "Data",
+      "label": "Master Tracking #",
+      "reqd": 0,
+      "section": "Transaction Information",
+      "aliases": [
+        "Master Tracking #",
+        "Master Trkng #"
+      ]
+    },
+    {
+      "fieldname": "invoice_number",
+      "fieldtype": "Data",
+      "label": "Invoice #",
+      "reqd": 0,
+      "section": "Invoice Information",
+      "aliases": [
+        "Invoice #"
+      ]
+    },
+    {
+      "fieldname": "invoice_date",
+      "fieldtype": "Date",
+      "label": "Invoice Date",
+      "reqd": 0,
+      "section": "Invoice Information",
+      "aliases": [
+        "Invoice Date"
+      ]
+    },
+    {
+      "fieldname": "invoice_age",
+      "fieldtype": "Int",
+      "label": "Invoice Age",
+      "reqd": 0,
+      "section": "Invoice Information",
+      "aliases": [
+        "Invoice Age"
+      ]
+    },
+    {
+      "fieldname": "invoice_amount",
+      "fieldtype": "Currency",
+      "label": "Invoice Amount",
+      "options": "currency",
+      "reqd": 0,
+      "section": "Invoice Information",
+      "aliases": [
+        "Invoice Amount"
+      ]
+    },
+    {
+      "fieldname": "invoice_balance",
+      "fieldtype": "Currency",
+      "label": "Invoice Balance",
+      "options": "currency",
+      "reqd": 0,
+      "section": "Invoice Information",
+      "aliases": [
+        "Invoice Balance"
+      ]
+    },
+    {
+      "fieldname": "shipper_name",
+      "fieldtype": "Data",
+      "label": "Name",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Name"
+      ]
+    },
+    {
+      "fieldname": "shipper_account_number",
+      "fieldtype": "Data",
+      "label": "Account #",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Account #",
+        "Acct #"
+      ]
+    },
+    {
+      "fieldname": "shipper_company",
+      "fieldtype": "Data",
+      "label": "Company",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Company"
+      ]
+    },
+    {
+      "fieldname": "shipper_address_line_1",
+      "fieldtype": "Long Text",
+      "label": "Address",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Address"
+      ]
+    },
+    {
+      "fieldname": "shipper_address_line_2",
+      "fieldtype": "Long Text",
+      "label": "Address 2",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Address 2"
+      ]
+    },
+    {
+      "fieldname": "shipper_city",
+      "fieldtype": "Data",
+      "label": "City",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "City"
+      ]
+    },
+    {
+      "fieldname": "shipper_state",
+      "fieldtype": "Data",
+      "label": "State",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "State"
+      ]
+    },
+    {
+      "fieldname": "shipper_zip_code",
+      "fieldtype": "Data",
+      "label": "Zip",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Zip"
+      ]
+    },
+    {
+      "fieldname": "shipper_country",
+      "fieldtype": "Data",
+      "label": "Country/Territory",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Country/Territory",
+        "Cntry/Terr",
+        "Country/Terr"
+      ]
+    },
+    {
+      "fieldname": "shipper_phone_number",
+      "fieldtype": "Data",
+      "label": "Phone #",
+      "reqd": 0,
+      "section": "Shipper Information",
+      "aliases": [
+        "Phone #"
+      ]
+    },
+    {
+      "fieldname": "recipient_name",
+      "fieldtype": "Data",
+      "label": "Name",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Name"
+      ]
+    },
+    {
+      "fieldname": "recipient_account_number",
+      "fieldtype": "Data",
+      "label": "Account #",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Account #",
+        "Acct #"
+      ]
+    },
+    {
+      "fieldname": "recipient_company",
+      "fieldtype": "Data",
+      "label": "Company",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Company"
+      ]
+    },
+    {
+      "fieldname": "recipient_address_line_1",
+      "fieldtype": "Long Text",
+      "label": "Address",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Address"
+      ]
+    },
+    {
+      "fieldname": "recipient_address_line_2",
+      "fieldtype": "Long Text",
+      "label": "Address 2",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Address 2"
+      ]
+    },
+    {
+      "fieldname": "recipient_city",
+      "fieldtype": "Data",
+      "label": "City",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "City"
+      ]
+    },
+    {
+      "fieldname": "recipient_state",
+      "fieldtype": "Data",
+      "label": "State",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "State"
+      ]
+    },
+    {
+      "fieldname": "recipient_zip_code",
+      "fieldtype": "Data",
+      "label": "Zip",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Zip"
+      ]
+    },
+    {
+      "fieldname": "recipient_country",
+      "fieldtype": "Data",
+      "label": "Country/Territory",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Country/Territory",
+        "Cntry/Terr",
+        "Country/Terr"
+      ]
+    },
+    {
+      "fieldname": "recipient_phone_number",
+      "fieldtype": "Data",
+      "label": "Phone #",
+      "reqd": 0,
+      "section": "Recipient Information",
+      "aliases": [
+        "Phone #"
+      ]
+    },
+    {
+      "fieldname": "bill_to_name",
+      "fieldtype": "Data",
+      "label": "Name",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Name"
+      ]
+    },
+    {
+      "fieldname": "bill_to_account_number",
+      "fieldtype": "Data",
+      "label": "Account #",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Account #",
+        "Acct #"
+      ]
+    },
+    {
+      "fieldname": "bill_to_company",
+      "fieldtype": "Data",
+      "label": "Company",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Company"
+      ]
+    },
+    {
+      "fieldname": "bill_to_address_line_1",
+      "fieldtype": "Long Text",
+      "label": "Address",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Address"
+      ]
+    },
+    {
+      "fieldname": "bill_to_address_line_2",
+      "fieldtype": "Long Text",
+      "label": "Address 2",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Address 2"
+      ]
+    },
+    {
+      "fieldname": "bill_to_city",
+      "fieldtype": "Data",
+      "label": "City",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "City"
+      ]
+    },
+    {
+      "fieldname": "bill_to_state",
+      "fieldtype": "Data",
+      "label": "State",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "State"
+      ]
+    },
+    {
+      "fieldname": "bill_to_zip_code",
+      "fieldtype": "Data",
+      "label": "Zip",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Zip"
+      ]
+    },
+    {
+      "fieldname": "bill_to_country",
+      "fieldtype": "Data",
+      "label": "Country/Territory",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Country/Territory",
+        "Cntry/Terr",
+        "Country/Terr"
+      ]
+    },
+    {
+      "fieldname": "bill_to_phone_number",
+      "fieldtype": "Data",
+      "label": "Phone #",
+      "reqd": 0,
+      "section": "Bill To Information",
+      "aliases": [
+        "Phone #"
+      ]
+    },
+    {
+      "fieldname": "payment_payor",
+      "fieldtype": "Data",
+      "label": "Payor",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Payor"
+      ]
+    },
+    {
+      "fieldname": "payment_method",
+      "fieldtype": "Data",
+      "label": "Method",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Method"
+      ]
+    },
+    {
+      "fieldname": "payment_source",
+      "fieldtype": "Data",
+      "label": "Payment Source",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Payment Source"
+      ]
+    },
+    {
+      "fieldname": "ground_sort_key",
+      "fieldtype": "Data",
+      "label": "Ground Sort Key",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Ground Sort Key",
+        "Grnd Sort Key"
+      ]
+    },
+    {
+      "fieldname": "bill_characteristics",
+      "fieldtype": "Data",
+      "label": "Bill Characteristics",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Bill Characteristics"
+      ]
+    },
+    {
+      "fieldname": "bill_to_legal_entity",
+      "fieldtype": "Data",
+      "label": "Bill To Legal Entity",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Bill To Legal Entity"
+      ]
+    },
+    {
+      "fieldname": "bill_to_station",
+      "fieldtype": "Data",
+      "label": "Bill To Station",
+      "reqd": 0,
+      "section": "Payment",
+      "aliases": [
+        "Bill To Station"
+      ]
+    },
+    {
+      "fieldname": "base_service",
+      "fieldtype": "Data",
+      "label": "Base Svc",
+      "reqd": 0,
+      "section": "Service",
+      "aliases": [
+        "Base Svc"
+      ]
+    },
+    {
+      "fieldname": "package_type",
+      "fieldtype": "Data",
+      "label": "Pkg Type",
+      "reqd": 0,
+      "section": "Service",
+      "aliases": [
+        "Pkg Type"
+      ]
+    },
+    {
+      "fieldname": "rated_base_service",
+      "fieldtype": "Data",
+      "label": "Rated Base",
+      "reqd": 0,
+      "section": "Service",
+      "aliases": [
+        "Rated Base"
+      ]
+    },
+    {
+      "fieldname": "rated_package_type",
+      "fieldtype": "Data",
+      "label": "Rated Pkg",
+      "reqd": 0,
+      "section": "Service",
+      "aliases": [
+        "Rated Pkg"
+      ]
+    },
+    {
+      "fieldname": "ground_service",
+      "fieldtype": "Data",
+      "label": "Grnd Svc",
+      "reqd": 0,
+      "section": "Service",
+      "aliases": [
+        "Grnd Svc"
+      ]
+    },
+    {
+      "fieldname": "srn",
+      "fieldtype": "Data",
+      "label": "SRN",
+      "reqd": 0,
+      "section": "Services Rendered",
+      "aliases": [
+        "SRN"
+      ]
+    },
+    {
+      "fieldname": "pof_cause",
+      "fieldtype": "Data",
+      "label": "POF Cause",
+      "reqd": 0,
+      "section": "Services Rendered",
+      "aliases": [
+        "POF Cause"
+      ]
+    },
+    {
+      "fieldname": "total_packages",
+      "fieldtype": "Int",
+      "label": "Total Packages",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Total Packages"
+      ]
+    },
+    {
+      "fieldname": "rate_weight",
+      "fieldtype": "Float",
+      "label": "Rate Weight",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Rate Weight"
+      ]
+    },
+    {
+      "fieldname": "rate_weight_unit",
+      "fieldtype": "Data",
+      "label": "Rate Weight Unit",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Rate Weight Unit"
+      ]
+    },
+    {
+      "fieldname": "declared_value",
+      "fieldtype": "Currency",
+      "label": "Declared Value",
+      "options": "declared_value_currency",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Declared Value"
+      ]
+    },
+    {
+      "fieldname": "declared_value_currency",
+      "fieldtype": "Link",
+      "label": "Declared Value Currency",
+      "options": "Currency",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Declared Value Currency"
+      ]
+    },
+    {
+      "fieldname": "customs_value",
+      "fieldtype": "Currency",
+      "label": "Customs Value",
+      "options": "customs_value_currency",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Customs Value"
+      ]
+    },
+    {
+      "fieldname": "customs_value_currency",
+      "fieldtype": "Link",
+      "label": "Customs Value Currency",
+      "options": "Currency",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Customs Value Currency"
+      ]
+    },
+    {
+      "fieldname": "special_handling",
+      "fieldtype": "Data",
+      "label": "Special Handling",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Special Handling"
+      ]
+    },
+    {
+      "fieldname": "pod_signature_indicator",
+      "fieldtype": "Data",
+      "label": "POD Sign Ind",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "POD Sign Ind"
+      ]
+    },
+    {
+      "fieldname": "geni",
+      "fieldtype": "Data",
+      "label": "GENI",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "GENI"
+      ]
+    },
+    {
+      "fieldname": "origin_location",
+      "fieldtype": "Data",
+      "label": "Origin Location",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Origin Location"
+      ]
+    },
+    {
+      "fieldname": "destination_location",
+      "fieldtype": "Data",
+      "label": "Dest Location",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Dest Location"
+      ]
+    },
+    {
+      "fieldname": "origin_country",
+      "fieldtype": "Data",
+      "label": "Origin Country/Territory",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Origin Country/Territory",
+        "Cntry/Terr",
+        "Country/Terr"
+      ]
+    },
+    {
+      "fieldname": "destination_country",
+      "fieldtype": "Data",
+      "label": "Dest Country/Territory",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Dest Country/Territory",
+        "Cntry/Terr",
+        "Country/Terr"
+      ]
+    },
+    {
+      "fieldname": "rate_source",
+      "fieldtype": "Data",
+      "label": "Rate Source",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Rate Source"
+      ]
+    },
+    {
+      "fieldname": "revenue_stage",
+      "fieldtype": "Data",
+      "label": "Revenue Stage",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Revenue Stage"
+      ]
+    },
+    {
+      "fieldname": "inactive_reason",
+      "fieldtype": "Data",
+      "label": "Inactive Reason",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Inactive Reason"
+      ]
+    },
+    {
+      "fieldname": "td_indicator",
+      "fieldtype": "Data",
+      "label": "TD Indicator",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "TD Indicator"
+      ]
+    },
+    {
+      "fieldname": "rated_package_quantity",
+      "fieldtype": "Int",
+      "label": "Rated Pkg Qty",
+      "reqd": 0,
+      "section": "General",
+      "aliases": [
+        "Rated Pkg Qty"
+      ]
+    }
+  ]
+}

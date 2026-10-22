@@ -1,0 +1,1 @@
+Observed RED: API environment variables were not consumed; verifier used the legacy SID and returned failure against the token-only HTTP fixture. Original environment dump removed from diagnostic output.

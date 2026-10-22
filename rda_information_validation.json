@@ -1,0 +1,488 @@
+{
+  "doctype": "RDA Information",
+  "source": "User-provided screenshot, visually transcribed",
+  "schema_data_fields": 100,
+  "populated_fields": 49,
+  "checks_passed": 63,
+  "checks": [
+    "Correct target DocType",
+    "All output keys are actual data fieldnames",
+    "Schema-required fields satisfied (schema defines none)",
+    "lob: JSON string",
+    "co: JSON string",
+    "transaction_type: JSON string",
+    "ship_date: ISO date",
+    "tendered_date: ISO date",
+    "revenue_date: ISO date",
+    "origin_station: JSON string",
+    "destination_station: JSON string",
+    "payor_code: JSON string",
+    "summary_bill_to_account_number: JSON string",
+    "bill_to_customer_name: JSON string",
+    "revenue_item_id: JSON string",
+    "device_flag: JSON string",
+    "stage: JSON string",
+    "net_amount: JSON number",
+    "currency: JSON string",
+    "transaction_ship_date: ISO date",
+    "transaction_tendered_date: ISO date",
+    "transaction_revenue_date: ISO date",
+    "meter_number: JSON string",
+    "billing_cycle: JSON string",
+    "form_id: JSON string",
+    "shipper_name: JSON string",
+    "shipper_account_number: JSON string",
+    "shipper_company: JSON string",
+    "shipper_address_line_1: JSON string",
+    "shipper_city: JSON string",
+    "shipper_state: JSON string",
+    "shipper_zip_code: JSON string",
+    "shipper_country: JSON string",
+    "recipient_name: JSON string",
+    "recipient_account_number: JSON string",
+    "recipient_company: JSON string",
+    "recipient_address_line_1: JSON string",
+    "recipient_address_line_2: JSON string",
+    "recipient_city: JSON string",
+    "recipient_country: JSON string",
+    "bill_to_account_number: JSON string",
+    "bill_to_company: JSON string",
+    "bill_to_address_line_1: JSON string",
+    "bill_to_address_line_2: JSON string",
+    "bill_to_city: JSON string",
+    "bill_to_country: JSON string",
+    "payment_payor: JSON string",
+    "payment_method: JSON string",
+    "bill_characteristics: JSON string",
+    "bill_to_legal_entity: JSON string",
+    "bill_to_station: JSON string",
+    "Identifiers preserve leading zeros",
+    "Revenue Item ID preserves all 16 digits as text",
+    "Net amount and currency separated",
+    "Names mapped to their respective sections",
+    "Account numbers mapped to the correct parties and summary",
+    "Bill-to company is preserved; blank bill-to Name is not invented",
+    "Countries kept with their respective parties",
+    "Summary payor code kept separate from payment description",
+    "All six visible dates mapped to their section-specific fields",
+    "Blank fields omitted rather than guessed",
+    "pickup_type: JSON string",
+    "Pickup Type set to C as confirmed by user"
+  ],
+  "omitted_fields": [
+    "customs_entry_date",
+    "summary_invoice_number",
+    "summary_invoice_date",
+    "cdo_required_date",
+    "ors_flag",
+    "balance_due",
+    "transaction_cdo_required_date",
+    "group_id",
+    "master_tracking_number",
+    "invoice_number",
+    "invoice_date",
+    "invoice_age",
+    "invoice_amount",
+    "invoice_balance",
+    "shipper_address_line_2",
+    "shipper_phone_number",
+    "recipient_state",
+    "recipient_zip_code",
+    "recipient_phone_number",
+    "bill_to_name",
+    "bill_to_state",
+    "bill_to_zip_code",
+    "bill_to_phone_number",
+    "payment_source",
+    "ground_sort_key",
+    "base_service",
+    "package_type",
+    "rated_base_service",
+    "rated_package_type",
+    "ground_service",
+    "srn",
+    "pof_cause",
+    "total_packages",
+    "rate_weight",
+    "rate_weight_unit",
+    "declared_value",
+    "declared_value_currency",
+    "customs_value",
+    "customs_value_currency",
+    "special_handling",
+    "pod_signature_indicator",
+    "geni",
+    "origin_location",
+    "destination_location",
+    "origin_country",
+    "destination_country",
+    "rate_source",
+    "revenue_stage",
+    "inactive_reason",
+    "td_indicator",
+    "rated_package_quantity"
+  ],
+  "pending_confirmation": {},
+  "live_doctype_save_tested": true,
+  "live_test_limitation": null,
+  "user_confirmed_values": {
+    "pickup_type": "C"
+  },
+  "live_test": {
+    "site": "https://skylink.dev.advtinni.com",
+    "action": "created_record",
+    "record_name": "cfjin8q51u",
+    "record_url": "https://skylink.dev.advtinni.com/desk/rda-information/cfjin8q51u",
+    "live_schema_matches_payload": true,
+    "currency_link_exists": true,
+    "checked_fields": 49,
+    "matched_fields": 49,
+    "mismatched_fields": [],
+    "field_comparisons": [
+      {
+        "fieldname": "lob",
+        "fieldtype": "Data",
+        "expected": "00002",
+        "actual": "00002",
+        "matches": true
+      },
+      {
+        "fieldname": "co",
+        "fieldtype": "Data",
+        "expected": "002",
+        "actual": "002",
+        "matches": true
+      },
+      {
+        "fieldname": "transaction_type",
+        "fieldtype": "Data",
+        "expected": "S",
+        "actual": "S",
+        "matches": true
+      },
+      {
+        "fieldname": "ship_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "tendered_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "revenue_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "origin_station",
+        "fieldtype": "Data",
+        "expected": "HHRKN",
+        "actual": "HHRKN",
+        "matches": true
+      },
+      {
+        "fieldname": "destination_station",
+        "fieldtype": "Data",
+        "expected": "POMA",
+        "actual": "POMA",
+        "matches": true
+      },
+      {
+        "fieldname": "payor_code",
+        "fieldtype": "Data",
+        "expected": "2",
+        "actual": "2",
+        "matches": true
+      },
+      {
+        "fieldname": "summary_bill_to_account_number",
+        "fieldtype": "Data",
+        "expected": "204819935",
+        "actual": "204819935",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_customer_name",
+        "fieldtype": "Data",
+        "expected": "PNG AIR FREIGHT LIMITED",
+        "actual": "PNG AIR FREIGHT LIMITED",
+        "matches": true
+      },
+      {
+        "fieldname": "revenue_item_id",
+        "fieldtype": "Data",
+        "expected": "2230000850298458",
+        "actual": "2230000850298458",
+        "matches": true
+      },
+      {
+        "fieldname": "device_flag",
+        "fieldtype": "Data",
+        "expected": "INET",
+        "actual": "INET",
+        "matches": true
+      },
+      {
+        "fieldname": "stage",
+        "fieldtype": "Data",
+        "expected": "Expected",
+        "actual": "Expected",
+        "matches": true
+      },
+      {
+        "fieldname": "net_amount",
+        "fieldtype": "Currency",
+        "expected": 108.28,
+        "actual": 108.28,
+        "matches": true
+      },
+      {
+        "fieldname": "currency",
+        "fieldtype": "Link",
+        "expected": "USD",
+        "actual": "USD",
+        "matches": true
+      },
+      {
+        "fieldname": "transaction_ship_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "transaction_tendered_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "transaction_revenue_date",
+        "fieldtype": "Date",
+        "expected": "2026-08-27",
+        "actual": "2026-08-27",
+        "matches": true
+      },
+      {
+        "fieldname": "meter_number",
+        "fieldtype": "Data",
+        "expected": "258118400",
+        "actual": "258118400",
+        "matches": true
+      },
+      {
+        "fieldname": "billing_cycle",
+        "fieldtype": "Data",
+        "expected": "99",
+        "actual": "99",
+        "matches": true
+      },
+      {
+        "fieldname": "form_id",
+        "fieldtype": "Data",
+        "expected": "0430",
+        "actual": "0430",
+        "matches": true
+      },
+      {
+        "fieldname": "pickup_type",
+        "fieldtype": "Data",
+        "expected": "C",
+        "actual": "C",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_name",
+        "fieldtype": "Data",
+        "expected": "JAMES PARK",
+        "actual": "JAMES PARK",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_account_number",
+        "fieldtype": "Data",
+        "expected": "976466357",
+        "actual": "976466357",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_company",
+        "fieldtype": "Data",
+        "expected": "PACIFIC WESTERN ENGINEERING, INC.",
+        "actual": "PACIFIC WESTERN ENGINEERING, INC.",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_address_line_1",
+        "fieldtype": "Long Text",
+        "expected": "2443 W. 208TH ST. UNIT E3",
+        "actual": "2443 W. 208TH ST. UNIT E3",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_city",
+        "fieldtype": "Data",
+        "expected": "TORRANCE",
+        "actual": "TORRANCE",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_state",
+        "fieldtype": "Data",
+        "expected": "CA",
+        "actual": "CA",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_zip_code",
+        "fieldtype": "Data",
+        "expected": "90501",
+        "actual": "90501",
+        "matches": true
+      },
+      {
+        "fieldname": "shipper_country",
+        "fieldtype": "Data",
+        "expected": "US",
+        "actual": "US",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_name",
+        "fieldtype": "Data",
+        "expected": "TRINNEE PECUNDO",
+        "actual": "TRINNEE PECUNDO",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_account_number",
+        "fieldtype": "Data",
+        "expected": "204819935",
+        "actual": "204819935",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_company",
+        "fieldtype": "Data",
+        "expected": "THE MASTER OF JASMIN 888",
+        "actual": "THE MASTER OF JASMIN 888",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_address_line_1",
+        "fieldtype": "Long Text",
+        "expected": "C/O FRABELLE PNG LTD",
+        "actual": "C/O FRABELLE PNG LTD",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_address_line_2",
+        "fieldtype": "Long Text",
+        "expected": "SECTION 277, LOT 1 SPEYBANK STREET",
+        "actual": "SECTION 277, LOT 1 SPEYBANK STREET",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_city",
+        "fieldtype": "Data",
+        "expected": "LAE",
+        "actual": "LAE",
+        "matches": true
+      },
+      {
+        "fieldname": "recipient_country",
+        "fieldtype": "Data",
+        "expected": "PG",
+        "actual": "PG",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_account_number",
+        "fieldtype": "Data",
+        "expected": "204819935",
+        "actual": "204819935",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_company",
+        "fieldtype": "Data",
+        "expected": "PNG AIR FREIGHT LIMITED",
+        "actual": "PNG AIR FREIGHT LIMITED",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_address_line_1",
+        "fieldtype": "Long Text",
+        "expected": "PO BOX 6550",
+        "actual": "PO BOX 6550",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_address_line_2",
+        "fieldtype": "Long Text",
+        "expected": "JACKSONS PDE, JACKSONS AIRPORT",
+        "actual": "JACKSONS PDE, JACKSONS AIRPORT",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_city",
+        "fieldtype": "Data",
+        "expected": "BOROKO NCD",
+        "actual": "BOROKO NCD",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_country",
+        "fieldtype": "Data",
+        "expected": "PG",
+        "actual": "PG",
+        "matches": true
+      },
+      {
+        "fieldname": "payment_payor",
+        "fieldtype": "Data",
+        "expected": "2 - Bill Recipient",
+        "actual": "2 - Bill Recipient",
+        "matches": true
+      },
+      {
+        "fieldname": "payment_method",
+        "fieldtype": "Data",
+        "expected": "01 - ACCT",
+        "actual": "01 - ACCT",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_characteristics",
+        "fieldtype": "Data",
+        "expected": "CONS",
+        "actual": "CONS",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_legal_entity",
+        "fieldtype": "Data",
+        "expected": "NZL",
+        "actual": "NZL",
+        "matches": true
+      },
+      {
+        "fieldname": "bill_to_station",
+        "fieldtype": "Data",
+        "expected": "5456",
+        "actual": "5456",
+        "matches": true
+      }
+    ],
+    "verification_method": "Independent GET after save, compared all populated fields to the input JSON"
+  }
+}
