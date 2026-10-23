@@ -2,6 +2,20 @@
 
 A Windows desktop program to **capture an RDA screen, recognize text locally, and automatically create a new RDA Information record in Skylink**. It also supports ordinary image-to-text extraction, copy and text export. Screenshots remain local; only mapped field values are sent to the configured site.
 
+## Floating capture icon
+
+The app starts as a small **FedEx camera icon** above your other windows.
+
+- **Click** the icon, drag across the RDA screen area, and release. Captured values are sent automatically to ERPNext; each successful capture creates a new record.
+- **Drag the icon** to move it anywhere on your screens. Moving it does not capture or send anything.
+- **Right-click** for Connection Settings, Show FedEx Window, Open Last Saved Record, or Exit.
+- With no connection, clicking opens API connection settings first. After applying a connection, the app returns to its floating icon.
+- The icon hides while selecting a capture, then returns in the same place. Esc or right-click cancels selection. The dashboard stays hidden.
+- The indicator is **orange** when ready, **yellow** while processing, **green** after a verified save, and **red** for an actual error. Hover over the icon for status details. Busy clicks cannot start overlapping sends.
+- From the full window, **Floating Capture** or the window's close button returns to the icon. Use **Exit** in the icon menu to close the app entirely.
+
+Floating captures always auto-send through the configured connection. The full window retains its separate Auto-send preference and manual OCR controls. OCR confidence warnings do not interrupt sending.
+
 ## Build a Windows `.exe` in a few steps
 
 The current Windows build is at `dist\ImageTextOCR.exe`. To rebuild it, follow these steps on Windows. PyInstaller cannot directly cross-compile a Windows exe from Linux.

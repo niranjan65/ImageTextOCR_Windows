@@ -19,6 +19,7 @@ import frappe_settings
 from frappe_client import FrappeClient, FrappeError
 from capture_workflow import CaptureJob, WorkflowEvent, run_capture_job, send_reviewed_job
 from rda_review import RDAReviewDialog, VerificationDetailsDialog
+from floating_capture import FloatingCaptureIcon
 
 APP_TITLE = "FedEx"
 BG = "#f4f7fb"
@@ -62,10 +63,16 @@ class OCRApp(tk.Tk):
         self._verification_failure = None
         self._details_dialog = None
         self._last_saved = None
+        self._last_created_record = None
         self._pending_upload = None
         self._open_review_when_ready = False
         self._save_uncertain = False
         self._connection_dialog = None
+        self._floating_mode = False
+        self._capture_return_to_floating = False
+        self._return_to_floating_after_connect = False
+        self._floating_result = 'ready'
+        self._floating_sync_state = None
         preferences = frappe_settings.load_preferences()
         self._site_url = preferences['site_url']
         self.auto_send_var = tk.BooleanVar(value=preferences['auto_send'])
@@ -76,6 +83,9 @@ class OCRApp(tk.Tk):
 
         self._set_style()
         self._create_ui()
+        self.floating_icon = FloatingCaptureIcon(self,self._capture_from_floating,self._show_main_window,
+                                                  self._floating_settings,self._open_last_created_record,self.destroy)
+        self.protocol('WM_DELETE_WINDOW',self.enter_floating_mode)
         self.after(90, self._drain_results)
         self.after(100, self._load_engine)
         # Optional process-local bootstrap; credentials are never read from source/config files.
@@ -143,6 +153,8 @@ class OCRApp(tk.Tk):
             fg="#bdcfe9",
             font=("Segoe UI", 10),
         ).pack(anchor="w", padx=30, pady=(0, 12))
+        self.floating_btn = ttk.Button(header,text='Floating Capture',command=self.enter_floating_mode)
+        self.floating_btn.place(relx=1,x=-26,y=24,anchor='ne')
 
         connection_bar = ttk.Frame(self, style="App.TFrame", padding=(20, 8))
         connection_bar.pack(fill="x")
@@ -367,6 +379,8 @@ class OCRApp(tk.Tk):
             return
         self._capturing = True
         self._capture_window_state = self.state()
+        self._capture_return_to_floating = self._floating_mode
+        self.floating_icon.hide()
         self.capture_btn.configure(state="disabled")
         self.upload_btn.configure(state="disabled")
         self.extract_btn.configure(state="disabled")
@@ -383,15 +397,22 @@ class OCRApp(tk.Tk):
         except Exception as exc:
             self._restore_after_capture()
             self.status_var.set("Screen capture failed.")
-            messagebox.showerror("Capture failed", f"Unable to capture the screen.\n\n{exc}")
+            self._floating_result = 'error'
+            self._sync_floating()
+            if not self._floating_mode:
+                messagebox.showerror("Capture failed", f"Unable to capture the screen.\n\n{exc}")
 
     def _restore_after_capture(self) -> None:
         self._capture_overlay = None
         self._capturing = False
-        self.deiconify()
-        if self._capture_window_state == "zoomed":
-            self.state("zoomed")
-        self.lift()
+        if self._capture_return_to_floating:
+            self.withdraw()
+            self.floating_icon.show()
+        else:
+            self.deiconify()
+            if self._capture_window_state == "zoomed":
+                self.state("zoomed")
+            self.lift()
         self.capture_btn.configure(state="normal")
         self.upload_btn.configure(state="normal")
         self.extract_btn.configure(
@@ -420,9 +441,57 @@ class OCRApp(tk.Tk):
                 self._start_capture_upload(auto_send=True)
         except Exception as exc:
             self.status_var.set("Screen capture failed.")
-            messagebox.showerror("Capture failed", f"Unable to load the screenshot.\n\n{exc}")
+            self._floating_result = 'error'
+            self._sync_floating()
+            if not self._floating_mode:
+                messagebox.showerror("Capture failed", f"Unable to load the screenshot.\n\n{exc}")
         finally:
             image.close()
+
+    def enter_floating_mode(self):
+        if self._closed or self._capturing:
+            return
+        self._floating_mode = True
+        self.withdraw()
+        self.floating_icon.show()
+        self._sync_floating()
+
+    def _show_main_window(self):
+        if self._closed or self._capturing:
+            return
+        self._floating_mode = False
+        self.floating_icon.hide()
+        self.deiconify()
+        self.lift()
+
+    def _floating_settings(self):
+        if self.running or self._capturing:
+            return
+        self._return_to_floating_after_connect = True
+        self._show_main_window()
+        self._connection_settings()
+
+    def _capture_from_floating(self):
+        if self.running or self._capturing or self._closed:
+            return
+        if self._frappe_client is None:
+            self._floating_settings()
+            return
+        self.auto_send_var.set(True)
+        self._floating_result = 'ready'
+        self._capture_screen()
+
+    def _sync_floating(self):
+        if self._closed:
+            return
+        state = 'busy' if self.running or self._capturing else self._floating_result
+        message = self.status_var.get()
+        if self._frappe_client is None and not self.running:
+            message = 'FedEx: click to connect ERPNext. Drag to move; right-click for options.'
+        snapshot = (message,state,self.running or self._capturing,self._last_created_record is not None)
+        if snapshot != self._floating_sync_state:
+            self._floating_sync_state = snapshot
+            self.floating_icon.set_status(*snapshot)
 
     def _on_preview_resize(self, _event=None) -> None:
         if self.selected_image:
@@ -480,8 +549,10 @@ class OCRApp(tk.Tk):
                         self._engine_state = 'failed'
                         self._pending_upload = None
                         self._set_upload_busy(False)
+                        self._floating_result = 'error'
                         self.status_var.set("OCR engine found, but no languages are installed.")
-                        messagebox.showwarning("No language data", "Tesseract has no installed language models (for example eng.traineddata).")
+                        if not self._floating_mode:
+                            messagebox.showwarning("No language data", "Tesseract has no installed language models (for example eng.traineddata).")
                     else:
                         self._engine_state = 'ready'
                         self.language_box.configure(values=langs)
@@ -496,11 +567,13 @@ class OCRApp(tk.Tk):
                 elif kind == "engine_error":
                     self.engine = None
                     self._engine_state = 'failed'
+                    self._floating_result = 'error'
                     if self._pending_upload is not None:
                         self._pending_upload = None
                         self._set_upload_busy(False)
                     self.status_var.set("OCR engine not available.")
-                    messagebox.showerror("OCR engine missing", result[1])
+                    if not self._floating_mode:
+                        messagebox.showerror("OCR engine missing", result[1])
                 elif kind == "text":
                     self.running = False
                     self._set_upload_busy(False)
@@ -522,7 +595,9 @@ class OCRApp(tk.Tk):
                     self.upload_btn.configure(state="normal")
                     self.capture_btn.configure(state="normal")
                     self.status_var.set("Text extraction failed.")
-                    messagebox.showerror("OCR failed", result[1])
+                    self._floating_result = 'error'
+                    if not self._floating_mode:
+                        messagebox.showerror("OCR failed", result[1])
                 elif kind == "upload":
                     self._handle_upload_event(result[1])
                 elif kind == "connection":
@@ -532,6 +607,7 @@ class OCRApp(tk.Tk):
         except queue.Empty:
             pass
         if not self._closed:
+            self._sync_floating()
             self.after(100, self._drain_results)
 
     def _save_preferences(self):
@@ -554,6 +630,9 @@ class OCRApp(tk.Tk):
         self.connection_var.set(f"{connection.user} • {client.base_url} • {'API' if client.auth_mode == 'api' else 'Session'}")
         self._save_preferences()
         self.status_var.set("Connected. Each auto-sent capture creates a new RDA Information record.")
+        if self._return_to_floating_after_connect:
+            self._return_to_floating_after_connect = False
+            self.enter_floating_mode()
 
     def _set_upload_busy(self, busy):
         self.running = busy
@@ -598,7 +677,9 @@ class OCRApp(tk.Tk):
             self._terminal_jobs.add(event.job_id)
             self._set_upload_busy(False)
             if event.phase == "verified":
+                self._floating_result = 'saved'
                 self._last_saved = event.data
+                self._last_created_record = event.data
                 self.open_record_btn.configure(state="normal")
                 self.status_var.set(f"Saved and verified {len(event.data.submitted)-1} fields: {event.data.name}")
             elif event.phase == "review_required":
@@ -607,13 +688,16 @@ class OCRApp(tk.Tk):
                     self._open_review_when_ready = False
                     self._open_review()
             else:
+                self._floating_result = 'error'
                 self._save_uncertain = event.phase in ("outcome_unknown", "verification_failed")
                 if event.phase == "verification_failed":
                     self._last_saved = event.data.saved
+                    self._last_created_record = event.data.saved
                     self._verification_failure = event.data
                     self.error_details_btn.configure(state="normal")
                     self.open_record_btn.configure(state="normal")
                 self.status_var.set(str(event.data))
+            self._sync_floating()
 
     def _review_and_send(self):
         if self.running or self.selected_image is None:
@@ -654,6 +738,10 @@ class OCRApp(tk.Tk):
     def _open_saved_record(self):
         if self._last_saved is not None:
             webbrowser.open(self._last_saved.url)
+
+    def _open_last_created_record(self):
+        if self._last_created_record is not None:
+            webbrowser.open(self._last_created_record.url)
 
     def _show_save_details(self):
         if self._verification_failure is not None:
@@ -705,6 +793,7 @@ class OCRApp(tk.Tk):
         if self._capture_overlay is not None:
             self._capture_overlay.destroy()
             self._capture_overlay = None
+        self.floating_icon.destroy()
         super().destroy()
         if self._capture_directory is not None:
             self._capture_directory.cleanup()
@@ -712,4 +801,5 @@ class OCRApp(tk.Tk):
 
 if __name__ == "__main__":
     app = OCRApp()
+    app.enter_floating_mode()
     app.mainloop()

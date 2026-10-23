@@ -430,6 +430,10 @@
   ('email.utils',
    'C:\\Program Files\\Python313\\Lib\\email\\utils.py',
    'PYMODULE'),
+  ('floating_capture',
+   'C:\\Users\\Anantdv '
+   'PC\\Downloads\\ImageTextOCR_Windows_Source\\ImageTextOCR_Windows\\floating_capture.py',
+   'PYMODULE'),
   ('fnmatch', 'C:\\Program Files\\Python313\\Lib\\fnmatch.py', 'PYMODULE'),
   ('fractions', 'C:\\Program Files\\Python313\\Lib\\fractions.py', 'PYMODULE'),
   ('frappe_client',
